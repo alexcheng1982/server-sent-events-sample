@@ -1,0 +1,13 @@
+apply plugin: 'war'
+apply plugin: 'eclipse-wtp'
+apply plugin: 'jetty'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.eclipse.jetty:jetty-continuation:8.1.8.v20121106'
+    providedCompile "javax.servlet:servlet-api:2.5"
+    compile "commons-io:commons-io:2.3"
+}

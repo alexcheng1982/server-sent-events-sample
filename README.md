@@ -1,4 +1,4 @@
-server-sent-events-sample
+Server-sent Events Java Sample
 =========================
 
-Server-sent Events Java Sample with IE 8+ support
+This is a sample Java based web application which uses HTML 5 Server-sent events and supports IE 8+.
