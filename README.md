@@ -7,7 +7,7 @@ This sample application is based on
 * [Jetty EventSource Serlvet](https://github.com/jetty-project/jetty-eventsource-servlet)
 * [Yaffle's EventSource](https://github.com/Yaffle/EventSource) polyfill library 
 
-How to build
+How to use
 -------------------------
 The sample project is built using [Gradle](http://www.gradle.org), just use `gradle jettyRun` to start the Jetty server and point your browser to [http://localhost:8080/sse/](http://localhost:8080/sse/). In the page, you should see a red rectangle moving randomly in the page.
 
