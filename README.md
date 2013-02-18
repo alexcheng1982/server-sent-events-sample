@@ -9,8 +9,6 @@ This sample application is based on
 
 How to build
 -------------------------
-The sample project is built using [Gradle](http://www.gradle.org), just use `gradle war` to generate the WAR file. Put the WAR file into any servlet container and access the index page.
-
-In the page, you should see a red rectangle moving randomly in the page.
+The sample project is built using [Gradle](http://www.gradle.org), just use `gradle jettyRun` to start the Jetty server and point your browser to [http://localhost:8080/sse/](http://localhost:8080/sse/). In the page, you should see a red rectangle moving randomly in the page.
 
 
