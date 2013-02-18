@@ -11,5 +11,6 @@ How to build
 -------------------------
 The sample project is built using [Gradle](http://www.gradle.org), just use `gradle war` to generate the WAR file. Put the WAR file into any servlet container and access the index page.
 
+In the page, you should see a red rectangle moving randomly in the page.
 
 
